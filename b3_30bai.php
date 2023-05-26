@@ -203,7 +203,7 @@ foreach($cars as $value)
 
 echo "<br><br>13. Viết chương trình PHP để loại bỏ các phần tử trùng lặp trong một mảng.<br>";
 function deleteDuplicateArr($array){
-    $newArray = [];
+    $newArray = []; 
         for ($i = 0; $i < count($array); $i++){
             for($j = 0; $j < count($newArray) + 1; $j++){
                 if($j == count($newArray)){
