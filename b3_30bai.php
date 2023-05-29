@@ -75,9 +75,16 @@ echo "Giá trị lớn nhất của mảng là: " . findMinMax($arrTest)[0] .
 "<br>Giá trị lớn nhất của mảng là: " . findMinMax($arrTest)[1];
 
 echo "<br><br>6.Viết chương trình PHP để sắp xếp một mảng theo thứ tự tăng dần <br>";
-function sortArray($arrays){
-    sort($arrays);
-    return $arrays;
+function sortArray($arrs){
+    $count = count($arrs);
+    for($i=0; $i<$count; $i++)
+        for($j=$i+1; $j<$count; $j++)
+            if($arrs[$i]>$arrs[$j]){
+                $temp = $arrs[$i];
+                $arrs[$i] = $arrs[$j];
+                $arrs[$j] = $temp;
+            }
+    return $arrs;
 }
 $arrTest = [1,9,2,5,3,7];
 echo "Mảng ban đầu: ";
@@ -274,6 +281,7 @@ foreach($cars as $car)
 echo "<br>";
 echo "Số lượng phần tử là: " . calcNumberOfElements2($cars);
 
+
 echo "<br><br>17. Viết chương trình PHP để kiểm tra xem một chuỗi có phải là chuỗi Palindrome hay không.<br>";
 function checkPalindrome($string){
     $revString = revString($string);
@@ -309,8 +317,8 @@ echo "<br><br>19. Viết chương trình PHP để sắp xếp một mảng theo
 function sortDescArray($arrs){
     $count = count($arrs);
     for($i=0; $i<$count; $i++)
-        for($j=0; $j<$count; $j++)
-            if($arrs[$i]>$arrs[$j]){
+        for($j=$i+1; $j<$count; $j++)
+            if($arrs[$i]<$arrs[$j]){
                 $temp = $arrs[$i];
                 $arrs[$i] = $arrs[$j];
                 $arrs[$j] = $temp;
