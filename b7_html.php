@@ -83,57 +83,52 @@
 
         <div>
           <div class="inline-block">
-            <img class="item-inline-block" src="images/mac.png" alt="Company Icon" />
+            <img class="item-inline-block" src="images/unsplash.png" alt="Company Icon" />
             <p class="item-inline-block">Unsplash</p>
           </div>
           <div class="inline-block">
-            <img class="item-inline-block" src="./images/mac.png" alt="Company Icon" />
+            <img class="item-inline-block" src="images/notion.png" alt="Company Icon" />
             <p class="item-inline-block">Notion</p>
           </div>
           <div class="inline-block">
-            <img class="item-inline-block" src="./images/mac.png" alt="Company Icon" />
+            <img class="item-inline-block" src="images/intercom.png" alt="Company Icon" />
             <p class="item-inline-block">INTERCOM</p>
           </div>
           <div class="inline-block">
-            <img class="item-inline-block" src="./images/mac.png" alt="Company Icon" />
+            <img class="item-inline-block" src="images/descript.png" alt="Company Icon" />
             <p class="item-inline-block">descript</p>
           </div>
           <div class="inline-block">
-            <img class="item-inline-block" src="./images/mac.png" alt="Company Icon" />
+            <img class="item-inline-block" src="images/grammarly.png" alt="Company Icon" />
             <p class="item-inline-block">grammarly</p>
           </div>
         </div>
 
         <div class="main-analyst">
           <div>
-            <h2>Lorem ih2sum dolor sit amet consectetur adipisicing elit.</h2>
+            <h2>How we support our <br> pratner all over the world</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-              recusandae perferendis necessitatibus blanditiis placeat minus
-              sequi! Velit odio repellat, cumque nostrum, porro perspiciatis
-              dolorem repudiandae nihil ad quas eum commodi.
+              SaaS become a common delivery model for many business application, 
+              including office software, messaging software, payroll processing software, DBMS software, management software
             </p>
 
             <div id="rate-left">
               <!-- rating -->
               <div>
-                <img src="./images/star.png" alt="star icon" />
-                <p>4.9/5 rating</p>
+                <img src="images/5star.png" alt="star icon" />
+                <p class="rate-left-num">4.9/5 rating</p>
                 <p>Databricks</p>
               </div>
               <div>
-                <img src="./images/star.png" alt="star icon" />
-                <p>4.9/5 rating</p>
-                <p>Databricks</p>
+                <img src="images/4star.png" alt="star icon" />
+                <p class="rate-left-num">4.8/5 rating</p>
+                <p>Chainalysis</p>
               </div>
             </div>
           </div>
-
           <div>
             <div class="list-analyst-right">
-              <div>
-                <img src="./images/analyst.png" alt="star icon" />
-              </div>
+              <img src="images/Group 1941.png" alt="star icon" />
               <div>
                 <h3>Pushlishing</h3>
                 <p>
@@ -146,9 +141,7 @@
             </div>
 
             <div class="list-analyst-right">
-              <div>
-                <img src="./images/analyst.png" alt="star icon" />
-              </div>
+              <img src="images/Group 1942.png" alt="star icon" />
               <div>
                 <h3>Pushlishing</h3>
                 <p>
@@ -161,9 +154,7 @@
             </div>
 
             <div class="list-analyst-right">
-              <div>
-                <img src="./images/analyst.png" alt="star icon" />
-              </div>
+              <img src="images/Group 1943.png" alt="star icon" />
               <div>
                 <h3>Pushlishing</h3>
                 <p>
@@ -180,94 +171,85 @@
 
       <!-- Part 2 -->
       <section id="feature">
-        <div>
-          <div>
-            <h1>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            </h1>
-          </div>
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
-              quos perferendis molestias consequatur, a quisquam dicta
-              consectetur dolor dolorem ea id assumenda! Obcaecati ipsam,
-              laborum suscipit laudantium esse animi vel.
-            </p>
-          </div>
-          <div>
-            <button class="btn btn-info btn-round">Get Started</button>
-          </div>
+        <div class="feature-top"> 
+          <h1>
+            Our Features <br> you cab get
+          </h1>
+          <p>
+            We offer a variety of interesting features that you can 
+            help increase yor productivity at work and manage your projrct esaly
+          </p>
+          <button class="btn btn-info btn-round">Get Started</button>
         </div>
-        <div>
+        <div class="feature-bottom">
           <div class="card-feature">
             <div>
-              <img src="./images/mac.png" alt="Logo" />
+              <img src="images/Frame 247.png" alt="Logo" />
             </div>
             <h1>Colloboration Team</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              Here you can handle projects together with team virtually
             </p>
           </div>
           <div class="card-feature">
             <div>
-              <img src="./images/mac.png" alt="Logo" />
+              <img src="images/Frame 53.png" alt="Logo" />
             </div>
-            <h1>Colloboration Team</h1>
+            <h1>Cloud Storage</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              No nedd to worry about storage because we provide storage up to 2 TB
             </p>
           </div>
           <div class="card-feature">
             <div>
-              <img src="./images/mac.png" alt="Logo" />
+              <img src="images/Frame 54.png" alt="Logo" />
             </div>
-            <h1>Colloboration Team</h1>
+            <h1>Daily Analytics</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              We always provide useful informatin to make it easier for you every day
             </p>
           </div>
         </div>
       </section>
 
       <!-- Part 3 -->
-      <section id="benifit">
+      <section id="benefit">
         <div>
-          <h1>What benifit will you get</h1>
+          <h1>What benefit will you get</h1>
           <ul>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li><img src="images/Subtract.png">Free Consulting With Experet Saving Money</li>
+            <li><img src="images/Subtract.png">Online Banking</li>
+            <li><img src="images/Subtract.png">Investment Report Every Month</li>
+            <li><img src="images/Subtract.png">Saving Money For The Future</li>
+            <li><img src="images/Subtract.png">Online Transection</li>
           </ul>
         </div>
         <div>
           <img src="./images/mac.png" alt="imgage Part 3" />
-          <div>
-            <div><img src="./images/person.png" alt="Icon Persion" /></div>
-            <div>
+          \ <div>
+            <div><img src="images/Subtract.png" alt="Icon Persion" /></div>
+            <!-- <div> -->
               <p>Anmada Young</p>
               <p>Lorem ipsum, dolor sit amet consectetur</p>
             </div>
-            <div><img src="./images/person.png" alt="icon message" /></div>
+            <div><img src="images/Subtract.png" alt="icon message" /></div>
           </div>
           <div>
-            <div><img src="./images/person.png" alt="Icon " /></div>
+            <div><img src="images/Subtract.png" alt="Icon " /></div>
             <p>Money Tranfer success</p>
           </div>
-
           <div>
             <div>
               <p>Total Income</p>
               <p>240$</p>
             </div>
-            <div><img src="./images/person.png" alt="Icon grouth up" /></div>
+            <div><img src="images/Subtract.png" alt="Icon grouth up" /></div>
           </div>
         </div>
       </section>
 
       <!-- Part 4 -->
-      <section id="plan">
+      <!-- <section id="plan"> -->
         <div>
           <h1>Choose plan</h1>
           <h1>That rigth for you</h1>
@@ -327,7 +309,7 @@
       </section>
 
       <!-- Part 5 -->
-      <section id="contact">
+      <!-- <section id="contact"> -->
         <div>
           <h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id
@@ -347,7 +329,6 @@
             esse sunt aspernatur nemo officia atque minus quaerat minima iure?
             Neque debitis odit dolores.
           </p>
-          <p>_huyhq</p>
 
           <div>
             <a href=""><img src="" alt="Profile Image" /></a>
@@ -390,7 +371,7 @@
       </section>
     </main>
     <!-- footer -->
-    <footer id="footer">
+    <!-- <footer id="footer"> -->
       <div>
         <div>
           <div class="logo">
