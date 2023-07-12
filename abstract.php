@@ -205,4 +205,5 @@ echo "<br>";
 $postgre->query('SELECT * FROM category');
 echo "<br>";
 echo $postgre->disconnect();
+
 ?>

@@ -219,4 +219,5 @@ $desEncryptor = new DES();
 echo "DES:<br>";
 echo "Encrypted: " . $desEncryptor->encrypt($message) . "<br>";
 echo "Decrypted: " . $desEncryptor->decrypt($message) . "<br>";
+
  ?>
